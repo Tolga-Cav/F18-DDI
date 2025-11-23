@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "F18_DDI_Footprints")(type "KiCad")(uri "${KIPRJMOD}/Symbols and Footprints/F18_DDI_Footprints.pretty")(options "")(descr ""))
+)
