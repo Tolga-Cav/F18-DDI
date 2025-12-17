@@ -1821,6 +1821,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2866,6 +2973,15 @@
 		(uuid "708862a0-b22d-4be5-92d2-5118081d37f4")
 	)
 	(bus_entry
+		(at 104.14 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d2ef4-d01f-420e-ad7b-f2f5a929266c")
+	)
+	(bus_entry
 		(at 29.21 102.87)
 		(size 2.54 2.54)
 		(stroke
@@ -2884,15 +3000,6 @@
 		(uuid "1136e605-3d58-45f7-a7e9-0116b73702d1")
 	)
 	(bus_entry
-		(at 106.68 67.31)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1339fe60-0c2d-4cb6-824a-27c50ddc67d1")
-	)
-	(bus_entry
 		(at 29.21 100.33)
 		(size 2.54 2.54)
 		(stroke
@@ -2900,15 +3007,6 @@
 			(type default)
 		)
 		(uuid "1483c4b7-b621-42b6-b493-a351814c9a5c")
-	)
-	(bus_entry
-		(at 106.68 72.39)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e324a2-2ca0-4e4e-ba71-ae7a929b7ce5")
 	)
 	(bus_entry
 		(at 267.97 213.36)
@@ -2936,6 +3034,15 @@
 			(type default)
 		)
 		(uuid "1ab5a94d-c47a-4d0f-ab11-7975bfdd5c92")
+	)
+	(bus_entry
+		(at 104.14 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf916ec-5546-410e-ae71-6fd998fc77a5")
 	)
 	(bus_entry
 		(at 223.52 190.5)
@@ -3044,15 +3151,6 @@
 			(type default)
 		)
 		(uuid "55437387-716a-40c4-93a3-1111d747d2c1")
-	)
-	(bus_entry
-		(at 106.68 74.93)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613da3c7-655e-43d6-a92d-e94ba992265d")
 	)
 	(bus_entry
 		(at 401.32 213.36)
@@ -3172,6 +3270,15 @@
 		(uuid "8ee0115a-ee44-48e0-888a-9ab388b4c4af")
 	)
 	(bus_entry
+		(at 104.14 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a015c0-e3ab-48d5-84c4-e266cfe52c7f")
+	)
+	(bus_entry
 		(at 223.52 60.96)
 		(size -2.54 2.54)
 		(stroke
@@ -3188,6 +3295,15 @@
 			(type default)
 		)
 		(uuid "9f38a6b8-1225-48f3-9bf3-a3293710afdf")
+	)
+	(bus_entry
+		(at 104.14 82.55)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9881d84-a4d4-4543-b5c3-5493e32ebe65")
 	)
 	(bus_entry
 		(at 355.6 106.68)
@@ -3368,15 +3484,6 @@
 			(type default)
 		)
 		(uuid "ee387306-b2c3-43d2-9878-56daca789567")
-	)
-	(bus_entry
-		(at 106.68 69.85)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb6ad98-fb7e-4230-ae28-3ee99beaee45")
 	)
 	(bus_entry
 		(at 355.6 190.5)
@@ -3797,6 +3904,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 85.09) (xy 104.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13238b5f-e827-4c41-b82d-9c3fc4a8fdcd")
+	)
+	(wire
+		(pts
 			(xy 330.2 81.28) (xy 330.2 82.55)
 		)
 		(stroke
@@ -4067,6 +4184,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0fef71-5d16-49fb-9883-29cff93a6930")
+	)
+	(wire
+		(pts
 			(xy 228.6 49.53) (xy 232.41 49.53)
 		)
 		(stroke
@@ -4174,6 +4301,16 @@
 			(type default)
 		)
 		(uuid "25a7556a-f0d0-4428-a90a-372f4ec0d9bc")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2662ba82-7e0e-4ebb-8647-5d34e7e590ee")
 	)
 	(wire
 		(pts
@@ -4285,16 +4422,6 @@
 		)
 		(uuid "2bee069f-62a6-40ab-b108-50ee92bb4022")
 	)
-	(bus
-		(pts
-			(xy 106.68 72.39) (xy 106.68 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c42c7f2-dac1-4e6e-b5e9-f62f3cdeda6f")
-	)
 	(wire
 		(pts
 			(xy 287.02 222.25) (xy 307.34 222.25)
@@ -4314,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "2dd01d08-0bb9-465b-b228-4a493ead3b5a")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8ec8bf-64ec-4437-8c57-3828c232eaa4")
 	)
 	(bus
 		(pts
@@ -4644,6 +4781,16 @@
 			(type default)
 		)
 		(uuid "4259a524-33c7-4a6b-9dc9-bc9072c78042")
+	)
+	(wire
+		(pts
+			(xy 93.98 77.47) (xy 104.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c3aa34-d243-4357-abf8-25c564c0cc1f")
 	)
 	(wire
 		(pts
@@ -4984,16 +5131,6 @@
 			(type default)
 		)
 		(uuid "580ea93e-b78b-4440-af00-348129b4368b")
-	)
-	(bus
-		(pts
-			(xy 106.68 69.85) (xy 106.68 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58413e4f-ce9e-4e02-a890-00e14a0a5359")
 	)
 	(wire
 		(pts
@@ -5625,16 +5762,6 @@
 		)
 		(uuid "7f79dea9-4303-4f27-87d5-e01c736353d7")
 	)
-	(wire
-		(pts
-			(xy 93.98 69.85) (xy 104.14 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f816fe4-7a5a-45cc-bbf1-791439405f69")
-	)
 	(bus
 		(pts
 			(xy 29.21 72.39) (xy 29.21 74.93)
@@ -5644,6 +5771,16 @@
 			(type default)
 		)
 		(uuid "8080b485-8f5c-44f8-8c59-910898880cbc")
+	)
+	(bus
+		(pts
+			(xy 106.68 82.55) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a491b3-9470-429e-bfb2-c982ea0730c2")
 	)
 	(bus
 		(pts
@@ -6165,6 +6302,16 @@
 		)
 		(uuid "a74514aa-dcff-49ec-9495-19d488d45dfc")
 	)
+	(bus
+		(pts
+			(xy 106.68 80.01) (xy 106.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8142ccc-93ae-426b-8f4f-29c40fb4ec4b")
+	)
 	(wire
 		(pts
 			(xy 309.88 109.22) (xy 287.02 109.22)
@@ -6224,16 +6371,6 @@
 			(type default)
 		)
 		(uuid "ab4cefe6-4f73-4e76-8c23-ec354f795609")
-	)
-	(wire
-		(pts
-			(xy 93.98 72.39) (xy 104.14 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac501266-c040-44de-bfd1-be108ac01ebd")
 	)
 	(wire
 		(pts
@@ -6657,6 +6794,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 82.55) (xy 104.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad1081a-8b69-465c-b0bc-0505a6c671ce")
+	)
+	(wire
+		(pts
 			(xy 396.24 222.25) (xy 396.24 223.52)
 		)
 		(stroke
@@ -6764,6 +6911,16 @@
 			(type default)
 		)
 		(uuid "d0d6f093-07b0-4985-90a0-b9e966e2b221")
+	)
+	(bus
+		(pts
+			(xy 106.68 85.09) (xy 106.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13d8e21-dac7-43a2-8517-7fc02fa96b42")
 	)
 	(wire
 		(pts
@@ -6924,16 +7081,6 @@
 			(type default)
 		)
 		(uuid "d701afe6-294c-48cb-8c89-b798e26e73d4")
-	)
-	(wire
-		(pts
-			(xy 93.98 74.93) (xy 104.14 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d71b99e7-7d56-4c76-a30f-122124b90709")
 	)
 	(wire
 		(pts
@@ -7115,16 +7262,6 @@
 		)
 		(uuid "e578fa21-736e-444c-a1e8-a34f59738a81")
 	)
-	(bus
-		(pts
-			(xy 106.68 67.31) (xy 106.68 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7747459-bcfa-44a0-9edf-3bd01ffed0a0")
-	)
 	(wire
 		(pts
 			(xy 54.61 171.45) (xy 55.88 171.45)
@@ -7254,16 +7391,6 @@
 			(type default)
 		)
 		(uuid "ee962ec3-5cf4-4d79-8634-8181f5729abf")
-	)
-	(wire
-		(pts
-			(xy 93.98 82.55) (xy 109.22 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb9b2c2-6858-4e50-a2fe-f4c4972a2dc5")
 	)
 	(wire
 		(pts
@@ -7404,16 +7531,6 @@
 			(type default)
 		)
 		(uuid "f61e5e00-1293-48e6-9b5c-b72ae00f685d")
-	)
-	(wire
-		(pts
-			(xy 93.98 77.47) (xy 104.14 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f712c891-91f0-4a4b-b83f-42c9847a42c6")
 	)
 	(wire
 		(pts
@@ -7565,15 +7682,15 @@
 		)
 		(uuid "0c98d73a-26a4-4613-a7bc-95921090a431")
 	)
-	(label "Button12"
-		(at 38.1 95.25 0)
+	(label "Button20"
+		(at 38.1 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "16baaf30-5e95-4b1b-80cd-6ed42f51a91a")
+		(uuid "1978e815-f633-4c4d-8273-ff9d3ce88f3b")
 	)
 	(label "Button[1..20]"
 		(at 312.42 213.36 90)
@@ -7595,6 +7712,26 @@
 		)
 		(uuid "23b76102-d5ea-42d0-b1db-3b9085d1f12c")
 	)
+	(label "Button4"
+		(at 38.1 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2814c67d-61d1-45ad-9158-651457254372")
+	)
+	(label "Button19"
+		(at 38.1 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ac6a696-2b0c-46f7-a3f1-21d38f11a167")
+	)
 	(label "Button9"
 		(at 331.47 81.28 0)
 		(effects
@@ -7604,16 +7741,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ee361ca-56e7-45cd-bc7a-5ff6963f64b2")
-	)
-	(label "Button20"
-		(at 95.25 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ffe09ff-de57-42dc-aeb3-f8deb952c0a5")
 	)
 	(label "Button4"
 		(at 331.47 63.5 0)
@@ -7645,6 +7772,16 @@
 		)
 		(uuid "3d742403-5efb-4a54-b270-7db9e8b0a5e2")
 	)
+	(label "Button16"
+		(at 95.25 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40f85fd3-d559-4520-9af0-80bc8e01f13d")
+	)
 	(label "Button18"
 		(at 288.29 215.9 0)
 		(effects
@@ -7664,16 +7801,6 @@
 			(justify left bottom)
 		)
 		(uuid "481f4f99-d05c-4152-88d0-e88305aa45b3")
-	)
-	(label "Button3"
-		(at 38.1 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b1e19ca-c3bd-446e-a90b-87d38d45846f")
 	)
 	(label "Button11"
 		(at 199.39 132.08 0)
@@ -7695,25 +7822,25 @@
 		)
 		(uuid "4e5d9a98-d458-4020-8878-5514f9e1e159")
 	)
-	(label "Button14"
-		(at 38.1 100.33 0)
+	(label "Button9"
+		(at 38.1 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "544b4eaf-aae7-4dd7-a05e-54bc17a082a9")
+		(uuid "5538aa2e-dc30-460c-9ff3-02e3cb704cb7")
 	)
-	(label "Button4"
-		(at 38.1 74.93 0)
+	(label "Button6"
+		(at 95.25 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "550f56f9-6492-474a-b9d2-3739587a6a39")
+		(uuid "58ab57ea-2c23-4d72-b1ba-77537d3089c3")
 	)
 	(label "Button12"
 		(at 243.84 132.08 0)
@@ -7735,6 +7862,16 @@
 		)
 		(uuid "609f3135-6ff5-4d42-9ca7-dbfbc6f0e7fe")
 	)
+	(label "Button14"
+		(at 38.1 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64426dd3-ff7b-4e9b-befe-25cacdf3cc4b")
+	)
 	(label "Button17"
 		(at 243.84 187.96 0)
 		(effects
@@ -7755,25 +7892,25 @@
 		)
 		(uuid "67bd4d39-5d3f-4ea3-bef2-b9f3e7878711")
 	)
-	(label "Button15"
-		(at 38.1 102.87 0)
+	(label "Button17"
+		(at 37.8967 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6f6ee5af-2d43-417e-96c3-fe3d98108baf")
+		(uuid "684d4b05-d366-4e41-9501-29c5bbec5258")
 	)
-	(label "Button6"
-		(at 38.1 80.01 0)
+	(label "Button15"
+		(at 38.1 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "80d24f8c-f64f-4d32-a05b-98b9edddef95")
+		(uuid "79b4312c-5d9d-4d79-a70b-3449da9e537d")
 	)
 	(label "Button15"
 		(at 377.19 160.02 0)
@@ -7795,35 +7932,15 @@
 		)
 		(uuid "85d55939-6cc3-48bf-a26c-b917838f73e3")
 	)
-	(label "Button9"
-		(at 38.1 87.63 0)
+	(label "Button3"
+		(at 38.1 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "868a231d-50ac-4307-aba0-ca7ccc68d44e")
-	)
-	(label "Button13"
-		(at 38.1 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87b0a179-b730-4ddc-b403-55e5d2980d3b")
-	)
-	(label "Button2"
-		(at 38.1 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a88b3f5-ae66-44b6-8c6c-174f12eace08")
+		(uuid "8a06ee44-dcd6-4f61-89ca-c9d5df8de534")
 	)
 	(label "Button2"
 		(at 243.84 35.56 0)
@@ -7855,16 +7972,6 @@
 		)
 		(uuid "93fe37f2-8a2f-4eac-8350-8a83fd0d59ff")
 	)
-	(label "Button16"
-		(at 38.1 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94715c04-73aa-4f9c-8917-8bb4f177aa88")
-	)
 	(label "Button[1..20]"
 		(at 223.52 213.36 90)
 		(effects
@@ -7875,6 +7982,16 @@
 		)
 		(uuid "96f36f4e-4617-49f8-b0d2-c894596f158a")
 	)
+	(label "Button5"
+		(at 38.1 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98a2b40d-7d5f-4f4a-bbe3-d8f717283f51")
+	)
 	(label "Button4"
 		(at 331.47 35.56 0)
 		(effects
@@ -7884,6 +8001,16 @@
 			(justify left bottom)
 		)
 		(uuid "98d0f5cd-3e89-44b1-af2f-b728ab6d26c7")
+	)
+	(label "Button12"
+		(at 38.1 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a018a77-8f62-479b-ad2a-ad1c467262d7")
 	)
 	(label "Button11"
 		(at 199.39 160.02 0)
@@ -7905,16 +8032,6 @@
 		)
 		(uuid "a07ce553-4c63-4b0e-8bdc-637f35136ccc")
 	)
-	(label "Button10"
-		(at 38.1 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a26f80cb-89e6-4469-a755-2f5fcb3d04e8")
-	)
 	(label "Button2"
 		(at 243.84 63.5 0)
 		(effects
@@ -7935,6 +8052,16 @@
 		)
 		(uuid "a92289f8-7c82-427d-8d41-823114439776")
 	)
+	(label "Button11"
+		(at 95.25 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a95847df-bfe4-47c2-98b0-689494511039")
+	)
 	(label "Button12"
 		(at 243.84 160.02 0)
 		(effects
@@ -7946,6 +8073,16 @@
 		(uuid "a966c891-8584-4f50-9361-7beb9b7fe965")
 	)
 	(label "Button[1..20]"
+		(at 106.68 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9f47b8f-631e-4452-8c11-df90525726ca")
+	)
+	(label "Button[1..20]"
 		(at 267.97 213.36 90)
 		(effects
 			(font
@@ -7955,35 +8092,35 @@
 		)
 		(uuid "abd7df17-ea53-4bb9-a34f-0b2737b000e5")
 	)
-	(label "Button11"
-		(at 38.1 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae0d0f35-a06a-4e19-a147-8ac699e470d0")
-	)
-	(label "Button[1..20]"
-		(at 106.68 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aef75468-bcd6-4c4c-ae1d-44d1e39fd4de")
-	)
 	(label "Button7"
-		(at 38.1 82.55 0)
+		(at 38.1 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c05a8153-92bd-47bf-85d7-c1493b64cb20")
+		(uuid "bd72e87f-86fc-4e4c-bb55-4152c8847123")
+	)
+	(label "Button1"
+		(at 38.1 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bea527cb-dfee-4498-9af2-da2713aa266e")
+	)
+	(label "Button10"
+		(at 38.1 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5dbd457-2a5b-437a-ba5d-d8501fa366f1")
 	)
 	(label "Button16"
 		(at 199.39 215.9 0)
@@ -7995,15 +8132,15 @@
 		)
 		(uuid "cfd4a439-8bdb-4243-abaa-0c8ceed51741")
 	)
-	(label "Button8"
-		(at 38.1 85.09 0)
+	(label "Button13"
+		(at 38.1 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d0488925-23f2-456e-8f30-e71485094e85")
+		(uuid "cfdab0cb-81a1-4105-b210-b2f7b229b982")
 	)
 	(label "Button8"
 		(at 288.29 81.28 0)
@@ -8045,6 +8182,16 @@
 		)
 		(uuid "d870188f-4b10-4f5e-95e1-9e8282afb6f5")
 	)
+	(label "Button18"
+		(at 38.1 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de27d517-f034-42b8-978c-caa791867f58")
+	)
 	(label "Button3"
 		(at 288.29 35.56 0)
 		(effects
@@ -8055,16 +8202,6 @@
 		)
 		(uuid "e00a36be-09d0-4be7-a488-937d4f116e2c")
 	)
-	(label "Button17"
-		(at 95.25 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e21753ad-e477-4c0e-878c-3c446296845c")
-	)
 	(label "Button[1..20]"
 		(at 355.6 213.36 90)
 		(effects
@@ -8074,16 +8211,6 @@
 			(justify left bottom)
 		)
 		(uuid "e3124acf-775f-43de-875f-56b0e1801ad1")
-	)
-	(label "Button5"
-		(at 38.1 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e41f9cab-ef77-4acb-a5a6-866b2acce69e")
 	)
 	(label "Button6"
 		(at 199.39 109.22 0)
@@ -8105,6 +8232,16 @@
 		)
 		(uuid "e7163a37-596f-4359-832a-fbf1866e32ec")
 	)
+	(label "Button2"
+		(at 95.25 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e981cd1e-f2c1-4908-a6a3-2466cccaf7c6")
+	)
 	(label "Button5"
 		(at 377.19 63.5 0)
 		(effects
@@ -8115,16 +8252,6 @@
 		)
 		(uuid "ec704487-36a6-4f8f-bd3b-e913c15e1f74")
 	)
-	(label "Button1"
-		(at 38.1 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef89f034-60dd-4112-b404-f58a442dc7c7")
-	)
 	(label "Button17"
 		(at 243.84 215.9 0)
 		(effects
@@ -8134,6 +8261,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3a17205-7249-42ca-b35b-2f65f2c0a959")
+	)
+	(label "Button8"
+		(at 38.1 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6fa47e6-9a14-4f78-bcb7-56d879b12b6d")
 	)
 	(label "Button[1..20]"
 		(at 401.32 213.36 90)
@@ -8155,16 +8292,6 @@
 		)
 		(uuid "f8ba45fa-4cc8-4dfb-92c6-4782e126fb57")
 	)
-	(label "Button19"
-		(at 95.25 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f92e3553-0a95-4243-b6b9-2b145eb33bc4")
-	)
 	(label "Button1"
 		(at 199.39 63.5 0)
 		(effects
@@ -8175,16 +8302,6 @@
 		)
 		(uuid "fb2a1241-2274-43c2-a7c7-a4bceb892da2")
 	)
-	(label "Button18"
-		(at 95.25 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc21f6ac-5f24-4f3d-8b9a-2583706fadea")
-	)
 	(label "Button5"
 		(at 377.19 35.56 0)
 		(effects
@@ -8194,28 +8311,6 @@
 			(justify left bottom)
 		)
 		(uuid "fce0ded6-a38c-42ae-af15-d2079ff23f20")
-	)
-	(global_label "Switch Pos 2"
-		(shape input)
-		(at 109.22 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05be0a04-2aef-4120-b02c-96ab5f612e92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9051 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "Switch Pos 3"
 		(shape input)
@@ -8235,28 +8330,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch Pos 3"
-		(shape input)
-		(at 93.98 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d074a0b-de14-42f9-b1d1-4df53245ffad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.6651 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8371,9 +8444,9 @@
 			)
 		)
 	)
-	(global_label "Switch Pos 1"
+	(global_label "Switch Pos 2"
 		(shape input)
-		(at 93.98 80.01 0)
+		(at 93.98 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8381,9 +8454,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8d8cb6d8-570e-4e7d-a74d-3ceb14c65553")
+		(uuid "8c8aa1d0-5af1-4bf7-b3b9-555f5e422997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.6651 80.01 0)
+			(at 109.6651 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,6 +8510,28 @@
 			)
 		)
 	)
+	(global_label "Switch Pos 1"
+		(shape input)
+		(at 109.22 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a894c93d-cfc7-42de-a459-0a28228b9552")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.9051 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Potentiometer 2"
 		(shape input)
 		(at 93.98 184.15 180)
@@ -8455,6 +8550,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch Pos 3"
+		(shape input)
+		(at 109.22 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5b66c97-39e0-4c87-8f4a-3ee121005bf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.9051 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9080,6 +9197,73 @@
 			(project "F18_DDI"
 				(path "/6d71fcef-a8f2-465c-8a38-274a3175aef7"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1191f6b6-6513-46b7-ba32-dc44ec2e3af8")
+		(property "Reference" "H1"
+			(at 46.99 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 46.99 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 44.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "406219f5-d7d4-42ec-aec7-d9603a07350f")
+		)
+		(instances
+			(project ""
+				(path "/6d71fcef-a8f2-465c-8a38-274a3175aef7"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -10007,6 +10191,72 @@
 			(project "F18_DDI"
 				(path "/6d71fcef-a8f2-465c-8a38-274a3175aef7"
 					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37abd910-f3b8-4428-8277-fa4ee8fe3b18")
+		(property "Reference" "#PWR026"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bbfa4a5-d84d-4b75-af78-231bd2ebed57")
+		)
+		(instances
+			(project "F18_DDI"
+				(path "/6d71fcef-a8f2-465c-8a38-274a3175aef7"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14508,6 +14758,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7f4bd9e-56cf-4595-81ad-a44c06a95630")
+		(property "Reference" "H2"
+			(at 46.99 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 46.99 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 44.45 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c99f254-a03e-4e82-bc9c-1b83f9366ed0")
+		)
+		(instances
+			(project "F18_DDI"
+				(path "/6d71fcef-a8f2-465c-8a38-274a3175aef7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 134.62 190.5 0)
 		(unit 1)
@@ -15104,6 +15421,72 @@
 			(project ""
 				(path "/6d71fcef-a8f2-465c-8a38-274a3175aef7"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54e90c8-43b8-4bc9-9051-ce84e81435d5")
+		(property "Reference" "#PWR025"
+			(at 44.45 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a82d18f3-1351-44cf-b417-33360600b847")
+		)
+		(instances
+			(project "F18_DDI"
+				(path "/6d71fcef-a8f2-465c-8a38-274a3175aef7"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
