@@ -22575,6 +22575,30 @@
 		(layer "Edge.Cuts")
 		(uuid "c6adc4a6-ca9e-43a7-ac80-418dc5184152")
 	)
+	(gr_text "Standalone F18 DDI v1.0\nTolga Cavusoglu\nDecember 2025"
+		(at 154 72.75 -0)
+		(layer "F.SilkS")
+		(uuid "1d1a2d85-5822-4fd8-a75a-44e63dc7ed57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Raspberry Pi Pico 2\n"
+		(at 277.5 97.75 0)
+		(layer "B.SilkS")
+		(uuid "5ca5d407-5380-4482-9844-0dbf49a595fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 125.99 215)
 		(end 120.75 220.24)
